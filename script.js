@@ -83,13 +83,6 @@
     // calculations to be accurate
     mortgage_paid_in_full.textContent = (((monthly_mortgage_payment * 100 * 12) * years_left) / 100);
 
-    /*
-    Year 10 Maintenance Fee 	((Annual Maintenance Fee)*(1+Int Rate)^10) - ((Annual Maintenance Fee)*(1+Int Rate)^9)
-    Total Maintenance Fees - 10 years 	(Annual Maintenance Fee)*(1+Int Rate)^10
-    10 Year Maintenance Fee Average 	((Annual Maintenance Fee)*(1+Int Rate)^10) / 10
-    Cost per Vacation 	((Annual Maintenance Fee)*(1+Int Rate)^10) / 10) + ((Mortgage paid in full) / 10)
-    Total Cost of Timeshare 	((Annual Maintenance Fee)*(1+Int Rate)^10) + (Mortgage paid in full)
-    */
 
     /*
       A	Year 10 Maintenance Fee	((Annual Maintenance Fee)*(1+Int Rate)^9)
