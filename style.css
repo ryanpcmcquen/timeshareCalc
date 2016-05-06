@@ -1,0 +1,28 @@
+.container__calc input {
+  width: 240px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border-color: hsla(0, 0%, 87%, 0.2);
+  height: 50px;
+}
+
+.container__calc input,
+.container__calc select,
+.container__calc span {
+  font-size: 150%;
+  font-family: monospace;
+  text-align: center;
+  -webkit-appearance: none;
+}
+
+.container__calc select,
+.container__calc select option {
+  line-height: 50px;
+  padding-left: 20px;
+  padding-right: 8px;
+}
+
+.container__calc span {
+  margin-left: 5px;
+  vertical-align: middle;
+}

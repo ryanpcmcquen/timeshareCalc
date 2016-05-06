@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+</head>
+
+<body>
+  <div class="container__calc">
+    <h3>Monthly mortgage payment</h3> $
+    <input type="number" id="monthly_mortgage_payment" value="100.00">
+    <h3>Years left</h3>
+    <select id="years_left" name="years_left">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5" selected>5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select>
+    <h3>Annual maintenance fees</h3> $
+    <input type="number" id="annual_maintenance_fees" value="895.00">
+    <p>*Note: If you have monthly or quarterly fees, calculate out your annual costs.</p>
+    <h3>Maintenance fee annual increase</h3>
+    <select id="annual_maintenance_increase" name="annual_maintenance_increase">
+      <option value="1">1%</option>
+      <option value="2">2%</option>
+      <option value="3">3%</option>
+      <option value="4">4%</option>
+      <option value="5">5%</option>
+      <option value="6">6%</option>
+      <option value="7">7%</option>
+      <option value="8" selected>8%</option>
+      <option value="9">9%</option>
+      <option value="10">10%</option>
+      <option value="11">11%</option>
+      <option value="12">12%</option>
+      <option value="13">13%</option>
+      <option value="14">14%</option>
+      <option value="15">15%</option>
+      <option value="16">16%</option>
+      <option value="17">17%</option>
+      <option value="18">18%</option>
+      <option value="19">19%</option>
+      <option value="20">20%</option>
+      <option value="21">21%</option>
+      <option value="22">22%</option>
+      <option value="23">23%</option>
+      <option value="24">24%</option>
+      <option value="25">25%</option>
+    </select>
+    <p>*According to ARDA, the average fee increase is 8% annually.</p>
+    <h3>Mortgage paid in full (w/o interest paid)</h3>
+    <div>
+      $<span id="mortgage_paid_in_full"></span>
+    </div>
+    <h3>Year 10 maintenance fee</h3>
+    <div>
+      $<span id="year_ten_maintenance_fee"></span>
+    </div>
+    <h3>Total maintenance fees - 10 years</h3>
+    <div>
+      $<span id="total_maintenance_fees"></span>
+    </div>
+    <h3>10 year maintenance fee average</h3>
+    <div>
+      $<span id="ten_year_maintenance_fee_average"></span>
+    </div>
+    <h3>Cost per vacation</h3>
+    <div>
+      $<span id="cost_per_vacation"></span>
+    </div>
+    <h3>Total cost of timeshare</h3>
+    <div>
+      $<span id="total_cost_of_timeshare"></span>
+    </div>
+
+    <button class="calculate-it">
+      Calculate
+    </button>
+  </div>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</body>
+
+</html>
