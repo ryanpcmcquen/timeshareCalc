@@ -73,12 +73,12 @@
       forceTwoDecimals();
     });
   });
-  spanArray.map(function (i) {
-    m.ael(i, 'change', function () {
-      updateCalculations();
-      forceTwoDecimals();
-    });
-  });
+  // spanArray.map(function (i) {
+  //   m.ael(i, 'change', function () {
+  //     updateCalculations();
+  //     forceTwoDecimals();
+  //   });
+  // });
 
   m.ael(m.d, 'DOMContentLoaded', function () {
     updateCalculations();
